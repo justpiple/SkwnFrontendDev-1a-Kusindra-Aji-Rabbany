@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Furniture Landing Page</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <script src="https://releases.jquery.com/git/jquery-3.x-git.min.js"></script>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container">
+      <div class="nav__logo">
+        <img src="assets/images/logo.svg" alt="Logo Dekoor">
+      </div>
+      <button class="nav__toggle" aria-label="Open menu">
+        <img src="assets/images/gg_menu-left.svg" alt="Open menu">
+      </button>
+      <ul class="nav__menu">
+        <li><a href="#">About us</a></li>
+        <li class="dropdown">
+          <a href="#">Furniture <span class="material-symbols-outlined">keyboard_arrow_down</span></a>
+          <div class="dropdown_content">
+            <a href="#">Living Room</a>
+            <a href="#">Bedroom</a>
+            <a href="#">Dining</a>
+            <a href="#">Office</a>
+          </div>
+        </li>
+        <li><a href="#">Partnership</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="nav__buttons">
+        <a href="#" class="btn btn__primary">Sign Up</a>
+        <a href="#" class="btn btn__secondary"><span class="material-symbols-outlined">shopping_bag</span></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <nav class="mobile__menu" aria-hidden="true" aria-label="Mobile menu">
+    <div class="mobile__menu__inner">
+      <button class="mobile__menu__close" aria-label="Close menu">
+        <span class="material-symbols-outlined">close</span>
+      </button>
+      <ul class="mobile__menu__list">
+        <li><a href="#">About us</a></li>
+        <li class="dropdown">
+          <a href="#">Furniture <span class="material-symbols-outlined">keyboard_arrow_down</span></a>
+          <div class="dropdown_content">
+            <a href="#">Living Room</a>
+            <a href="#">Bedroom</a>
+            <a href="#">Dining</a>
+            <a href="#">Office</a>
+          </div>
+        </li>
+        <li><a href="#">Partnership</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="mobile__menu__actions">
+        <a href="#" class="btn btn__primary">Sign Up</a>
+        <a href="#" class="btn btn__secondary"><span class="material-symbols-outlined">shopping_bag</span></a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MAIN  -->
+  <main class="main">
+    <section class="hero">
+      <div class="hero__content">
+        <h1 class="hero__title">The kind of <span>furniture</span> you have been looking for</h1>
+        <div class="hero__actions">
+          <a href="#" class="btn btn__primary"><span class="material-symbols-outlined">search</span> SEARCH
+            CATALOG</a>
+          <a href="#" class="btn btn__secondary-outline"><span class="material-symbols-outlined">play_circle</span>
+            WATCH VIDEOS</a>
+        </div>
+      </div>
+
+      <div class="hero__visual">
+        <img class="hero__image" src="/assets/images/hero-image.png" alt="Product" />
+        <div class="hero__product-info">
+          <div class="hero__price-badge">$329</div>
+          <div class="hero__product-name">Pösht Sofa</div>
+          <a href="#" class="hero__cta">VIEW DETAILS<span class="material-symbols-outlined">chevron_right</span></a>
+        </div>
+      </div>
+    </section>
+    <section class="choose" aria-labelledby="choose-heading">
+      <div class="container">
+        <p id="choose-heading" class="choose__eyebrow">WHY CHOOSE US?</p>
+        <h2 class="choose__title">We care about details and the quality of our products</h2>
+        <ul class="choose__features">
+          <li class="choose__feature">
+            <span class="material-symbols-outlined choose__icon" aria-hidden="true">search</span>
+            <span class="choose__text">MANUFACTURED WITH QUALITY MATERIALS</span>
+          </li>
+          <li class="choose__feature">
+            <span class="choose__icon" aria-hidden="true">5</span>
+            <span class="choose__text">5 YEARS OF WARRANTY FOR EACH PRODUCT</span>
+          </li>
+          <li class="choose__feature">
+            <span class="material-symbols-outlined choose__icon" aria-hidden="true">work_outline</span>
+            <span class="choose__text">20 YEARS OF EXPERTISE</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="brands">
+      <div class="brands__stat">
+        <h2 class="brands__count">25+</h2>
+        <p class="brands__label">PARTNERED BRANDS</p>
+      </div>
+      <div class="brands__logos">
+        <img class="brands__logo" src="/assets/images/gusto-logo.png" alt="Gusto">
+        <img class="brands__logo" src="/assets/images/stripe-logo.png" alt="Stripe">
+        <img class="brands__logo" src="/assets/images/treehouse-logo.png" alt="Treehouse">
+        <img class="brands__logo" src="/assets/images/upwork-logo.png" alt="Upwork">
+      </div>
+    </section>
+
+    <section class="categories">
+      <div class="categories__gallery">
+        <img src="/assets/images/furniture-1.png" alt="">
+        <img src="/assets/images/furniture-2.png" alt="">
+        <img src="/assets/images/furniture-3.png" alt="">
+      </div>
+      <div class="categories__details">
+        <h3>Categories</h3>
+        <h1>Furniture Sets Recommendations</h1>
+
+        <div class="categories__cards">
+          <div class="categories__card">
+            <p class="categories__card-head">Bedroom</p>
+            <p class="categories__card-body">Enjoy a great living room aesthetics with your family Designs created for
+              increased
+              comfortability</p>
+          </div>
+          <div class="categories__card categories__card--active">
+            <p class="categories__card-head">Living Room</p>
+            <p class="categories__card-body">Enjoy a great living room aesthetics with your family Designs created for
+              increased
+              comfortability</p>
+          </div>
+          <div class="categories__card">
+            <p class="categories__card-head">Home Office</p>
+            <p class="categories__card-body">Enjoy a great living room aesthetics with your family Designs created for
+              increased
+              comfortability</p>
+          </div>
+          <div class="categories__card">
+            <p class="categories__card-head">Gaming Room</p>
+            <p class="categories__card-body">Enjoy a great living room aesthetics with your family Designs created for
+              increased
+              comfortability</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="best-seller-section">
+      <div class="best-seller-section__header">
+        <div>
+          <p>OUR PRODUCTS</p>
+          <h2>This month's best seller</h2>
+        </div>
+        <a href="#" class="btn btn__primary">SEE MORE</a>
+      </div>
+
+      <div class="best-seller-section__loading">
+        <div class="loading-spinner"></div>
+        <p>Loading products...</p>
+      </div>
+
+
+      <div class="best-seller-section__error" style="display: none;">
+        <p>Failed to load products. Please try again later.</p>
+      </div>
+
+      <div class="best-seller-section__list">
+        <!-- Products -->
+      </div>
+
+      <div class="best-seller-section__pagination">
+        <div class="best-seller-section__pagination-item">
+          <button class="btn btn__primary"><span class="material-symbols-outlined">chevron_left</span></button>
+        </div>
+        <div class="best-seller-section__pagination-item">
+          <button class="btn btn__primary"><span class="material-symbols-outlined">chevron_right</span></button>
+        </div>
+      </div>
+    </section>
+    <section class="newsletter">
+      <div class="newsletter__content container">
+        <p class="newsletter__description">LIMITED DEALS</p>
+        <h2 class="newsletter__title">Become a member and get 10% off of your first purchase</h2>
+        <form class="newsletter__form" action="#">
+          <input type="email" placeholder="Enter your email here">
+          <button type="submit" class="btn btn__primary">
+            <span class="material-symbols-outlined">mail</span>
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER-->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__content">
+        <section class="footer__left" aria-labelledby="footer-about">
+          <div class="footer__logo">
+            <img class="footer__logo-icon" src="assets/images/logo.svg" alt="Dekoor">
+          </div>
+          <p class="footer__description">
+            Dekoor is a furniture company created to fulfill the needs of family
+            with aesthetic feeling in their furniture. Always pay attention to
+            details and give clear communication for the customers. Priority of
+            our design is comfortability.
+          </p>
+          <p class="footer__copyright">©Copyright 2022 Dekoor</p>
+        </section>
+
+        <div class="footer__links">
+          <nav class="footer__column" aria-labelledby="footer-support">
+            <h3 id="footer-support" class="footer__heading">Support</h3>
+            <ul class="footer__menu">
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Shipping & Returns</a></li>
+              <li><a href="#">Care guide</a></li>
+              <li><a href="#">Redeem warranty</a></li>
+            </ul>
+          </nav>
+
+          <nav class="footer__column" aria-labelledby="footer-social">
+            <h3 id="footer-social" class="footer__heading">Social Media</h3>
+            <ul class="footer__menu">
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">TikTok</a></li>
+            </ul>
+          </nav>
+
+          <nav class="footer__column" aria-labelledby="footer-about-links">
+            <h3 id="footer-about-links" class="footer__heading">About Us</h3>
+            <ul class="footer__menu">
+              <li><a href="#">Our story</a></li>
+              <li><a href="#">Designer</a></li>
+              <li><a href="#">Craftmanship</a></li>
+              <li><a href="#">Sustainability</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
